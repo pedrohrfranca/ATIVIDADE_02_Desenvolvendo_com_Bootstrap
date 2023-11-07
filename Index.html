@@ -9,6 +9,7 @@
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 </head>
 
 <body>
@@ -16,36 +17,38 @@
     <!-- container -->
     <div>
         <!-- menu -->
-        <div class="menu-container">
+        <div class="conteiner-menu container-fluid cor_de_fundo">
             <nav>
-                <div class="container">
-                    <h1 class="logo">Gulliver<span class="sub-title-main">Advisor</span></h1>
+                <div class="container container-fluid">
+                    <h1 class="logo branco">Gulliver<span class="sub-title-main cor_amarelo">Advisor</span></h1>
                     <ul class="nav-menu">
                         <li><a href="#"><span class="menu-icon"><i class="fa-solid fa-house"></i></span>Home</a></li>
                         <li><a href="#"><span class="menu-icon"><i class="fa-solid fa-heart"></i></span>Favoritos</a></li>
                         <li><a href="#"><span class="menu-icon"><i class="fa-solid fa-pen"></i></span>Avaliação</a></li>
                         <li><a href="./hospedagem.html"><span class="menu-icon"><i class="fa-solid fa-hotel"></i></span>Hospedagem</a></li>
-                        <li><a href="#" class="button">Fazer login</a></li>
+                        <button class="btn-fazer-login fundo_amarelo">Fazer Login</button>
                     </ul>
                 </div>
             </nav>
+            
         </div>
+        
 
         <!-- hero -->
-        <section class="hero">
-            <h1>Gulliver<span class="hero-title-main">Advisor</span></h1>
+        <section class="hero container-fluid cor_de_fundo">
+            <h1>Gulliver<span class="sub-title-main cor_amarelo">Advisor</span></h1>
             <p>
                 Aqui voce encontra as melhores reviews e dicas das viagens do Gulliver!
             </p>
-            <text-align: center>
-                <a href="" class="btn"> Quero viajar!</a>
-                </text-align>
+            <div class="button-container">
+                <button class="btn-queroviajar fundo_amarelo">Quero Viajar</button>
+            </div>            
         </section>
 
         <!-- experiencias -->
         <div class="experiencia-container">
-            <h2>As Melhores Experiências pra você</h2><br>
-            <p class="titulo_referencias">
+            <h2 class="titulo_h2 cor_amarelo">As Melhores Experiências pra você</h2><br>
+            <p class="titulo_referencias terceira_cor">
                 <span>*Referências no Gulliver Advisor</span>
             </p>
             <div class="articles">
@@ -73,9 +76,11 @@
         </div>
 
 
-        <h2 id="lazer-titulo">Opções de lazer</h2>
+        <hr>
 
         <!-- opcoes lazer -->
+
+        <h2 id="lazer-titulo" class="titulo_h2 cor_amarelo">Opções de lazer</h2>
         <div class="lazer-container">
 
 
@@ -108,7 +113,9 @@
 
         </div>
 
-        <h2 id="testemunhos-titulo">Testemunhos</h2>
+        <hr>
+
+        <h2 class="titulo_h2 cor_amarelo">Testemunhos</h2>
 
         <div class="testemunhos-container">
             <div class="testemunho">
@@ -146,9 +153,9 @@
 
 
     <footer>
-        <div id="footer_content">
+        <div id="footer_content" class="container-fluid cor_de_fundo">
             <div id="footer_contats">
-                <h1> Guliver Advisor</h1>
+                <h1> Guliver <span class="cor_amarelo">Advisor</span></h1>
                 <p> A trip without leaving home</p>
                 <div id="footer_social_midia">
                     <a href="#" class="footer_link" id="instagram"></a>
@@ -167,7 +174,7 @@
             <ul class="footer-list">
 
                 <li>
-                    <h3> Blog</h3>
+                    <h3 class="cor_amarelo"> Blog</h3>
                 </li>
                 <li> <a href="#" class="footer_link">Viagens</a></li>
                 <li> <a href="#" class="footer_link">Musicas</a></li>
@@ -177,7 +184,7 @@
             <ul class="footer-list">
 
                 <li>
-                    <h3>Dúvidas Frequentes</h3>
+                    <h3 class="cor_amarelo">Dúvidas Frequentes</h3>
                 </li>
                 <li> <a href="#" class="footer_link">Como me Inscrever no blog?</a></li>
                 <li> <a href="#" class="footer_link">Como me atualizar das próximas viagens?</a></li>
@@ -186,6 +193,9 @@
 
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 </body>
 
 </html>
