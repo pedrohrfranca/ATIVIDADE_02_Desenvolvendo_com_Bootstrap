@@ -18,16 +18,18 @@
     <div>
         <!-- menu -->
         <div class="conteiner-menu container-fluid cor_de_fundo">
-            <nav>
-                <div class="container container-fluid">
-                    <h1 class="logo branco">Gulliver<span class="sub-title-main cor_amarelo">Advisor</span></h1>
-                    <ul class="nav-menu">
-                        <li><a href="#"><span class="menu-icon"><i class="fa-solid fa-house"></i></span>Home</a></li>
-                        <li><a href="#"><span class="menu-icon"><i class="fa-solid fa-heart"></i></span>Favoritos</a></li>
-                        <li><a href="#"><span class="menu-icon"><i class="fa-solid fa-pen"></i></span>Avaliação</a></li>
-                        <li><a href="./hospedagem.html"><span class="menu-icon"><i class="fa-solid fa-hotel"></i></span>Hospedagem</a></li>
-                        <button class="btn-fazer-login fundo_amarelo">Fazer Login</button>
-                    </ul>
+            <nav class="navbar navbar-expand navbar-dark cor_de_fundo">
+                <div class="container">
+                    <a class="navbar-brand" href="#">Gulliver<span class="sub-title-main cor_amarelo">Advisor</span></a>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-item nav-link active" href="#"><i class="fa-solid fa-house"></i> Home</a>
+                            <a class="nav-item nav-link" href="#"><i class="fa-solid fa-heart"></i> Favoritos</a>
+                            <a class="nav-item nav-link" href="#"><i class="fa-solid fa-pen"></i> Avaliação</a>
+                            <a class="nav-item nav-link" href="./hospedagem.html"><i class="fa-solid fa-hotel"></i> Hospedagem</a>
+                        </div>
+                    </div>
+                    <button class="btn btn-warning btn-fazer-login">Fazer Login</button>
                 </div>
             </nav>
             
@@ -35,15 +37,15 @@
         
 
         <!-- hero -->
-        <section class="hero container-fluid cor_de_fundo">
-            <h1>Gulliver<span class="sub-title-main cor_amarelo">Advisor</span></h1>
-            <p>
-                Aqui voce encontra as melhores reviews e dicas das viagens do Gulliver!
+        <section class="hero container-fluid cor_de_fundo text-center">
+            <h1 class="display-4">Gulliver<span class="sub-title-main cor_amarelo">Advisor</span></h1>
+            <p class="lead">
+                Aqui você encontra as melhores reviews e dicas das viagens do Gulliver!
             </p>
             <div class="button-container">
-                <button class="btn-queroviajar fundo_amarelo">Quero Viajar</button>
-            </div>            
-        </section>
+                <button class="btn-large btn-queroviajar fundo_amarelo">Quero Viajar</button>
+            </div>
+        </section>        
 
         <!-- experiencias -->
         <div class="experiencia-container">
@@ -151,48 +153,50 @@
         </div>
     </div>
 
-
     <footer>
-        <div id="footer_content" class="container-fluid cor_de_fundo">
-            <div id="footer_contats">
-                <h1> Guliver <span class="cor_amarelo">Advisor</span></h1>
+        <div id="footer_content" class="container-fluid cor_de_fundo text-white">
+            <div id="footer_contats" class="col-md-4">
+                <h1> Gulliver <span class="cor_amarelo">Advisor</span></h1>
                 <p> A trip without leaving home</p>
-                <div id="footer_social_midia">
-                    <a href="#" class="footer_link" id="instagram"></a>
-                    <i class="fa-brands fa-instagram"></i>
-                    <p> @Guliver_Pelo_mundo</p>
-
-                    <a href="#" class="footer_link" id="twitter"></a>
-                    <i class="fa-brands fa-x-twitter"></i>
-                    <p>Guliver_Advisor</p>
-
-                    <a href="#" class="footer_link" id="facebook"></a>
-                    <i class="fa-brands fa-facebook-f"></i>
-                    <p>Guliver Traveler</p>
+                <div id="footer_social_midia" class="mt-3">
+                    <a href="#" class="footer_link d-flex align-items-center">
+                        <i class="fa-brands fa-instagram me-2"></i>
+                        <span>@Gulliver_Pelo_mundo</span>
+                    </a>
+                    <a href="#" class="footer_link d-flex align-items-center">
+                        <i class="fa-brands fa-x-twitter me-2"></i>
+                        <span>Guliver_Advisor</span>
+                    </a>
+                    <a href="#" class="footer_link d-flex align-items-center">
+                        <i class="fa-brands fa-facebook-f me-2"></i>
+                        <span>Guliver Traveler</span>
+                    </a>
+                    <!-- Repita para os outros links sociais -->
                 </div>
             </div>
-            <ul class="footer-list">
-
-                <li>
-                    <h3 class="cor_amarelo"> Blog</h3>
-                </li>
-                <li> <a href="#" class="footer_link">Viagens</a></li>
-                <li> <a href="#" class="footer_link">Musicas</a></li>
-                <li> <a href="#" class="footer_link">Culturas</a></li>
-            </ul>
-
-            <ul class="footer-list">
-
-                <li>
-                    <h3 class="cor_amarelo">Dúvidas Frequentes</h3>
-                </li>
-                <li> <a href="#" class="footer_link">Como me Inscrever no blog?</a></li>
-                <li> <a href="#" class="footer_link">Como me atualizar das próximas viagens?</a></li>
-                <li> <a href="#" class="footer_link">Como escolher o melhor destino?</a></li>
-            </ul>
-
+            <div class="col-md-12">
+                <ul class="footer-list ">
+                    <li>
+                        <h3 class="cor_amarelo"> Blog</h3>
+                    </li>
+                    <li> <a href="#" class="footer_link">Viagens</a></li>
+                    <li> <a href="#" class="footer_link">Musicas</a></li>
+                    <li> <a href="#" class="footer_link">Culturas</a></li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <ul class="footer-list">
+                    <li>
+                        <h3 class="cor_amarelo">Dúvidas Frequentes</h3>
+                    </li>
+                    <li> <a href="#" class="footer_link">Como me Inscrever no blog?</a></li>
+                    <li> <a href="#" class="footer_link">Como me atualizar das próximas viagens?</a></li>
+                    <li> <a href="#" class="footer_link">Como escolher o melhor destino?</a></li>
+                </ul>
+            </div>
         </div>
     </footer>
+    
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>

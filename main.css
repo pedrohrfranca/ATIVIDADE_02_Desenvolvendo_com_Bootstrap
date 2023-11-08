@@ -1,7 +1,7 @@
 :root {
     --background-testemunho: #ffffff;
     --shadow-testemunho: rgba(0, 0, 0, 0.1);
-    --font-color-general: #333; /* Cor para texto geral */
+    --font-color-general: #333;
     --padding-testemunho: 15px;
     --border-radius-testemunho: 10px;
 }
@@ -394,7 +394,7 @@ h3 {
 @media (max-width: 480px) {
 
     .conteiner-menu{
-        height: 300px;
+        height: 200px;
         padding: 20px;
     }
 
